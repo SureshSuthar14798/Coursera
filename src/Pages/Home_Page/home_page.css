@@ -1,0 +1,144 @@
+.top_courses {
+    padding: 60px 0;
+}
+.top_courses .cm_card {
+    margin: 0 15px;
+}
+.top_courses .cm_btn {
+    background-color: dodgerblue;
+}
+.top_courses .cm_btn:hover::after {
+    display: none;
+}
+.top_courses .cm_btn:hover {
+    color: #fff;
+    background-color: royalblue;
+}
+.top_course_cards {
+    margin: 0 -15px;
+}
+.top_course_cards .slick-list {
+    padding-bottom: 30px;
+}
+.top_course_cards .slick-dots {
+    padding-top: 20px;
+    position: unset;
+}
+.top_course_cards .slick-dots li.slick-active button {
+    border: 1px solid royalblue;
+    border-radius: 50%;
+    background-color: white;
+}
+.top_course_cards .slick-dots li button:before {
+    color: royalblue;
+    opacity: 1;
+}
+.top_course_cards .card_btn {
+    text-align: right;
+}
+.best_courses_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.best_courses_inner .cm_card {
+    max-width: 24%;
+    margin-bottom: 30px;
+}
+.best_courses_inner .card_image {
+    height: 190px;
+}
+.best_courses_inner .card_data h4 {
+    font-size: 22px;
+}
+.best_courses_inner .cm_btn {
+    font-size: 16px;
+    min-width: 120px;
+}
+.best_courses_inner .cm_btn:hover {
+    color: #fff;
+}
+.best_courses_inner .cm_btn:hover::after {
+    display: none;
+}
+.like_heart img {
+    width: 25px;
+}
+.trusted_company_section {
+    margin-top: 70px;
+    background-color: #f7f9fa;
+    padding: 50px 0;
+}
+.company_inner h3 {
+    text-align: center;
+}
+.all_companies {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.all_companies img {
+    margin: 0 25px;
+}
+@media (max-width:1199px) {
+    .best_courses_inner {
+        gap: 18px;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .best_courses_inner .cm_card {
+        max-width: 100%;
+        width: 32%;
+        margin-bottom: 0px;
+    }
+    .best_courses_inner .cm_card {
+        width: 48%;
+    }
+}
+@media (max-width:767px) {
+    .banner_info {
+        padding-left: 20px;
+    }
+    .banner_inner .cm_btn {
+        margin-top: 0;
+    }
+    .banner_inner h1 {
+        font-size: 50px;
+    }
+    .all_companies img {
+        margin: 0px 5px;
+    }
+}
+@media (max-width:480px) {
+    .best_courses_inner .cm_card {
+        width: 100%;
+    }
+    .all_companies {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .all_companies img {
+        margin: 5px;
+    }
+    .banner_inner h1 {
+        font-size: 40px;
+    }
+    .banner_inner p {
+        font-size: 12px;
+    }
+}

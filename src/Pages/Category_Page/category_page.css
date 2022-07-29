@@ -1,0 +1,136 @@
+.top_category_section {
+    padding-top: 60px;
+}
+.category_page .banner {
+    background-image: url(../../images/category_banner.jpg);
+}
+.category_box {
+    margin: 0px 10px 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px #00000036;
+}
+@media (max-width:1199px) {
+    .top_category_img_block {
+        height: 207px;
+    }
+    .instructor_banner {
+        padding: 40px 0;
+    }
+}
+@media (max-width:991px) {
+    .top_category_img_block {
+        height: 167px;
+    }
+    .top_category_block {
+        margin-top: 20px;
+    }
+    .top_category_box {
+        margin-bottom: 0;
+    }
+    .instructor_banner {
+        padding: 30px 0;
+    }
+    .top_category_block {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .top_category_title h3 {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    .trusted_company_section {
+        margin-top: 30px;
+    }
+    .top_courses .cm_card {
+        margin: 0 5px;
+    }
+    .top_course_cards .slick-list {
+        padding-bottom: 00px;
+    }
+}
+@media (max-width:767px) {
+    .inst_image {
+        max-width: 220px;
+    }
+    .instructor_block h3 {
+        font-size: 32px;
+    }
+    .inst_info {
+        padding: 0 15px;
+        max-width: calc(100% - 200px);
+    }
+    .top_category_title h3 {
+        font-size: 17px;
+        padding-bottom: 0;
+    }
+    .top_category_img_block {
+        height: auto;
+    }
+    .instructor_data h3 {
+        font-size: 25px;
+    }
+    .instructor_data .cm_btn {
+        font-size: 17px;
+        min-width: 190px;
+    }
+    .instructor_data p {
+        font-size: 15px;
+    }
+    .instructor_data {
+        padding-left: 0px;
+    }
+    .top_course_cards .slick-list {
+        padding-bottom: 20px;
+    }
+    .top_course_cards .card_btn .cm_btn {
+        font-size: 18px;
+        margin-top: 10px;
+        min-width: 120px;
+        font-size: 15px;
+    }
+}
+@media (max-width:575px) {
+    .top_category_block {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .top_category_box {
+        max-width: 47%;
+    }
+    .instructer_slide_block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .inst_image,
+    .inst_info {
+        max-width: 70%;
+    }
+    .inst_info {
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .instructor_block p {
+        max-width: 310px;
+        padding: 10px 0;
+        font-size: 17px;
+    }
+}
+@media (max-width:450px) {
+    .instructor_block h3 {
+        font-size: 27px;
+    }
+    .inst_image,
+    .inst_info {
+        max-width: 90%;
+    }
+    .instructor_block .cm_btn {
+        margin-top: 10px;
+        min-width: 130px;
+        font-size: 16px;
+    }
+}

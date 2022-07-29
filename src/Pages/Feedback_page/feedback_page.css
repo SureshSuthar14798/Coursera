@@ -1,0 +1,109 @@
+.feedback_page .banner {
+    background-image: url(../../images/feedback_banner.jpg);
+}
+.earth_section {
+    background-color: #00262b;
+    padding: 100px 0;
+    position: relative;
+}
+.earth_img {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.earth_section_inner {
+    position: relative;
+}
+.earth_section_inner h1 {
+    color: #fff;
+}
+.earth_section_inner p {
+    max-width: 885px;
+    color: #fff;
+    font-size: 28px;
+}
+.user_section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../images/banner_feed.jpg);
+}
+.user_detail_box {
+    top: 50px;
+    left: 50px;
+    padding: 30px;
+    position: absolute;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 0%);
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 0%);
+}
+.user_detail_box .cm_section_title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.user_detail_box p {
+    font-size: 20px;
+    max-width: 470px;
+}
+.user_section_inner {
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+}
+@media (max-width: 991px) {
+    .user_detail_box {
+        left: 0;
+    }
+    .user_detail_box .cm_section_title {
+        font-size: 34px;
+    }
+    .user_detail_box p {
+        max-width: 360px;
+    }
+    .earth_section {
+        padding: 50px 0;
+    }
+    .earth_section_inner p {
+        font-size: 22px;
+    }
+    .earth_img {
+        max-width: 480px;
+    }
+    .user_section_inner {
+        min-height: 420px;
+    }
+}
+@media (max-width:767px) {
+    .user_detail_box {
+        left: 50%;
+        width: 90%;
+        top: unset;
+        bottom: 20px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .user_detail_box p {
+        max-width: 100%;
+    }
+}
+@media (max-width:575px) {
+    .user_section {
+        background-position: 64% center;
+    }
+    .user_detail_box .cm_section_title {
+        font-size: 28px;
+    }
+    .user_detail_box {
+        padding: 20px;
+    }
+    .user_detail_box p {
+        font-size: 18px;
+    }
+    .earth_section_inner p {
+        font-size: 18px;
+    }
+    .earth_section {
+        padding-bottom: 30px;
+    }
+}
